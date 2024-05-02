@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F797F52-E123-435D-94A9-80F0A4B35FE6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.vb">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viking burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\تنزيل %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_1_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_3_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_4_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_5_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_6_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_7_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_8_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_9_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_10_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_11_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_12_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_13_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_14_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_15_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_16_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_17_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_18_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_19_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_20_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_21_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_22_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_23_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_24_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_25_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_26_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_27_2024-05-01_04-00-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3213.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\بايبال2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\بايبال21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mst.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
